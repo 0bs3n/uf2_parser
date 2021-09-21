@@ -1,0 +1,11 @@
+[package]
+name = "uf2_parser"
+version = "0.1.0"
+authors = ["Ethan Shackelford <ethan.k.shackelford@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bincode = "1.3.3"
+serde = { version = "1.0.127", features = ["derive"]}
